@@ -1,0 +1,92 @@
+.App {
+  position: relative;
+}
+.App .mascot {
+  position: absolute;
+  right: 10%;
+}
+.App .react-chatbot-kit-chat-container {
+  width: 100% !important;
+}
+.App .react-chatbot-kit-chat-inner-container {
+  height: 600px;
+}
+.App .react-chatbot-kit-chat-bot-avatar-container {
+  background-image: url("../../img/pdp.png");
+  background-position: center;
+  background-size: 50px;
+}
+.App .react-chatbot-kit-chat-bot-avatar-container p {
+  display: none;
+}
+.App .react-chatbot-kit-chat-message-container {
+  height: 524px;
+}
+.App .react-chatbot-kit-chat-message-container::-webkit-scrollbar {
+  width: 12px;
+}
+.App .react-chatbot-kit-chat-message-container::-webkit-scrollbar-track {
+  background: #efefef;
+}
+.App .react-chatbot-kit-chat-message-container::-webkit-scrollbar-thumb {
+  background-color: #b9121c;
+  border-radius: 20px;
+}
+.App .react-chatbot-kit-chat-bot-message {
+  width: 100% !important;
+}
+.App .react-chatbot-kit-chat-btn-send,
+.App .react-chatbot-kit-chat-bot-message,
+.App .data-response {
+  background-color: #b9121c;
+}
+.App .react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #b9121c;
+}
+.App .options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.App .options-container button {
+  padding: 10px 15px;
+  background-color: #FFF;
+  border: 3px solid #b9121c;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.App .options-container button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.App .data-response {
+  position: relative;
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.App .data-response > p {
+  margin: 0;
+}
+.App .data-response ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: circle;
+}
+.App .new-search-button {
+  padding: 10px 15px;
+  color: #FFF;
+  background-color: #a52020;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+.App .new-search-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.App .react-chatbot-kit-chat-btn-send:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=chatbot.css.map */

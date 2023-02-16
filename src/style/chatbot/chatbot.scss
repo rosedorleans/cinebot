@@ -1,0 +1,116 @@
+
+$primary: #b9121c;
+
+.App {
+    position: relative;
+
+    .mascot {
+        position: absolute;
+        right: 10%;
+    }
+
+    .react-chatbot-kit-chat-container {
+        width: 100% !important;
+    }
+
+    .react-chatbot-kit-chat-inner-container {
+        height: 600px;
+    }
+
+    .react-chatbot-kit-chat-bot-avatar-container {
+        background-image: url('../../img/pdp.png');
+        background-position: center;
+        background-size: 50px;
+
+        p {
+            display: none;
+        }
+    }
+
+    .react-chatbot-kit-chat-message-container {
+        height: 524px;
+
+        &::-webkit-scrollbar {
+            width: 12px;
+        }
+          
+        &::-webkit-scrollbar-track {
+            background: #efefef;
+        }
+          
+        &::-webkit-scrollbar-thumb {
+            background-color: $primary;
+            border-radius: 20px;
+        }
+    }
+
+    .react-chatbot-kit-chat-bot-message {
+        width: 100% !important;
+    }
+    
+    .react-chatbot-kit-chat-btn-send,
+    .react-chatbot-kit-chat-bot-message,
+    .data-response {
+        background-color: $primary;
+    }
+    
+    .react-chatbot-kit-chat-bot-message-arrow {
+        border-right: 8px solid $primary;
+    }
+    
+    .options-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    
+        button {
+            padding: 10px 15px;
+            background-color: #FFF;
+            border: 3px solid $primary;
+            border-radius: 10px;
+            opacity: .7;
+    
+            &:hover {
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+    }
+    
+    .data-response {
+        position: relative;
+        margin-top: 10px;
+        padding: 15px;
+        font-size: 15px;
+        border-radius: 10px;
+    
+        > p {
+            margin: 0;
+        }
+    
+        ul {
+            margin: 0;
+            padding-left: 20px;
+            list-style-type: circle;
+        }
+    }
+    
+    .new-search-button {
+        padding: 10px 15px;
+        color: #FFF;
+        background-color: #a52020;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+    
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+
+    .react-chatbot-kit-chat-btn-send:hover {
+        cursor: pointer;
+    }
+}
